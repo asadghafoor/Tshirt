@@ -1,0 +1,293 @@
+/* Css Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+/*Header Css*/
+
+#logo{
+    width: 120px;
+    margin: 10px 50px;
+}
+#label{
+    color:gray;
+    margin-left: 350px;
+    font-size: 12px;
+}
+#curr{
+    background-color: black;
+    color: gray;
+    width: 130px;
+    font-size: 12px;
+}
+#btn{
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 0px 15px;
+    font-weight: bold;
+    border: none;
+    width: 76px;
+    height: 21px;
+    font-size: 12px;
+}
+#vertical_line{
+    border-left: solid rgb(75, 75, 75) 1px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#box{
+    display: flex;
+    justify-content: flex-end;
+    margin: -65px 44px;
+}
+#right_box img{
+    width: 30px;
+    margin:6px 10px;
+}
+#left_box h6{
+    color: white;
+    line-height: 0;
+    margin: 12px 0px;
+    font-size: 12px;
+}
+#left_box p{
+    color: green;
+    font-size: 12px;
+    margin-right: 1px;
+}
+.menu{
+    width: 93%;
+    margin: 9px 39px;
+    
+}
+#navbarNavDropdown ul li a{
+    color: white;
+    /* border-left: 1px solid gray; */
+}
+#navbarNavDropdown ul li {
+    /* color: white; */
+    border-right: 1px solid gray;
+}
+#slide{
+    border: solid black 1px;
+    width: 66%;
+    height: 67vh;
+    background-image:linear-gradient(white, skyblue);
+    margin: 12px 40px;
+}
+/*#right_sec {
+    border: solid black 1px;
+    background-color: rgb(224, 224, 224);
+    float: right;
+    width: 26%;
+    height: 100.5vh;
+    display: inline;
+   margin: -70.9% 38px;
+    padding: 1px 1px;
+    position: absolute;
+    right: 0px;
+}*/
+/* left section */
+
+#slide img{
+    width: 377px;
+    margin: -5px 1px;
+}
+#box1{
+    display: flex;
+}
+
+/* Right Section */
+
+#right_box1 h2{
+    color: red;
+    line-height: 0;
+    margin: 127px 0px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight:bolder;
+    font-style: italic;
+    line-height: 0;
+    font-size: 3em;
+    letter-spacing:0px;
+}
+#right_box1 h4{
+    color: blue;
+    line-height: 1;
+    margin-top: -103px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight:bolder;
+    font-style: italic;
+    font-size: 2em;
+}
+#right_box1 p{
+    font-size: 12px;
+}
+/*#right_sec h5{
+   text-transform: uppercase;
+   border: solid 1px gray;
+   background-color: white;
+   border-radius: 5px;
+   padding: 7px 21px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+}
+#right_sec ul{
+
+    margin: 0px 9px;
+    padding: 1px 1px;
+}*/
+/*#right_sec #cat_list li{
+    border-radius: 3px;
+    list-style: none;
+    border-bottom: dotted gray 1px;
+    background-color: white;
+    margin: 1px 1px;
+    padding: 1px 1px;
+    color: red;
+    font-size: 14px;
+}
+#right_sec #seller_list li{
+    border-radius: 3px;
+    list-style: none;
+    border-bottom: dotted gray 1px;
+    margin: 1px 1px;
+    padding: 4px 1px;
+    color: red;
+    font-size: 14px;
+}
+#gaurented_img{
+    height: 121px;
+    width: 270px;
+    margin: 21px 2px;
+}*/
+
+#diff_tshirt{
+    background:url('/images/diagonlal\ background.jpg') ;
+    width: 66%;
+    height: 160px;
+    margin: -12px 39px;
+}
+
+#box2{
+    display: flex;
+}
+#img_div img{
+    width: 319px;
+    height: 170px;
+    margin: -5px -30px;
+
+}
+#desc p{
+    color: gray;
+    font-size: 16px;
+    margin: -13px 36px;
+}
+#desc a{
+    color: rgb(255, 255, 163);
+    font-size: 14px;
+    margin-left: 36px;
+}
+#desc h3{
+    color: white;
+    font-family: 'Original Surfer';
+    font-weight: bold;
+    margin: 22px 35px;
+}
+
+#whatsNew_sec{
+    border: 5px solid rgb(77, 77, 77);
+    width: 910px;
+    height: 450px !important;
+    margin: 27px 40px;
+    background-color: rgb(54, 54, 54);
+}
+#whatsNew_sec h3{
+    color: rgb(163, 163, 163);
+    font-family: 'Tinos', serif;
+    font-size: 25px;
+    margin: 16px;
+}
+#container img{
+    width: 206px;
+    height: 248px;
+}
+#container{
+    display: flex;
+}
+.imagess{
+    background-color: black;
+    margin: 35px 13px;
+    border-radius: 10px;
+}
+#container2{
+    display: flex;
+}
+.img_desc{
+    width: 210px;
+    height: 92px;
+    background-color: rgb(77, 77, 77);
+    margin: -26px 13px;
+    border-radius: 5px;
+}
+.heading1{
+    text-align: center;
+    color: rgb(212, 212, 212);
+    font-size: 13px;
+    line-height: 0.8;
+    margin: 11px 0px;
+}
+.price {
+    text-align: center;
+    color: rgb(163, 163, 163);
+    font-size: 20px;
+    line-height: 0;
+    margin: 5px 0px;
+}
+.img_desc .details{
+    color: rgb(163, 163, 163);
+    font-size: 12px;
+    margin: 0px 82px;
+    line-height: 0;
+}
+.img_desc a{
+    color: rgb(255, 255, 163);
+    margin: 0px 67px;
+    font-size: 14px;
+}
+
+/* Footer Section */
+
+#footer_imgs img{
+    width: 60px;
+}
+
+#acc_pics{
+    margin: 40px 38px;   
+}
+#acc_pics a{
+    color: rgb(163, 163, 163);
+    font-size: 14px;
+    text-decoration: none;
+    border-right: 1px solid rgb(163, 163, 163);
+}
+#footer_menu{
+    margin-left: 227px;
+}
+.footer_menu1{
+    margin: 0px 7px;
+    padding-right: 16px;
+
+}
+#copyright{
+    color: rgb(163, 163, 163);
+    text-align: right;
+    font-size: 14px;
+}
